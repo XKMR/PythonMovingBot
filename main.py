@@ -156,19 +156,18 @@ def displayCurrentPlace(localX, localY, currentDirection):
             else:
                 output += "□"
             drawX = drawX + 1
-    print(output)
-    return 0
+    return output
 
 #this is a demo program:
 
 try:
     while(True):
         smturn("right")
-        displayCurrentPlace(currentX, currentY, currentDirection)
+        print(displayCurrentPlace(currentX, currentY, currentDirection))
         sleep(0.5)
         for i in range(11): 
             smforward(1)
-            displayCurrentPlace(currentX, currentY, currentDirection)
+            print(displayCurrentPlace(currentX, currentY, currentDirection))
             sleep(0.1)
 except KeyboardInterrupt:
     print("X: ",currentX," Y: ",currentY)
