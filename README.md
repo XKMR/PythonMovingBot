@@ -1,5 +1,22 @@
 # PythonMovingBot
 this is a script for simulating a object with a direction that can move in said direction
+# demo:
+```python
+#this is a demo program
+
+try:
+    while(True):
+        smturn("right")
+        print(displayCurrentPlace(currentX, currentY, currentDirection))
+        sleep(0.5)
+        for i in range(11): 
+            smforward(1)
+            print(displayCurrentPlace(currentX, currentY, currentDirection))
+            sleep(0.1)
+except KeyboardInterrupt:
+    print("X: ",currentX," Y: ",currentY)
+    print("pointing at ", currentDirection)
+```
 # functions:
 <h2>turn():</h2>
 <p>
