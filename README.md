@@ -31,7 +31,7 @@ except KeyboardInterrupt:
    arguments: the current X, the current Y, the current direction, a number of steps<br/>
    returns: the new x,y
 </p>
-<h2>smturn</h2>
+<h2>smturn():</h2>
 <p>
      simplifies the turn command by removing the need for inputing the current direction<br/>
    requires the turn() function to work, requires a variable named "currentDirection" to work<br/>
