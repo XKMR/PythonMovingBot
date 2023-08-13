@@ -50,8 +50,7 @@ except KeyboardInterrupt:
     returns: 0
 
 ### displayCurrentPlace():
-> [!ALERT]
-> note that this needs some improvements
+> :warning: **WARNING!** the code for this function needs some improvements
 
 
     makes a 20x20 "screen" that will display the place and direction of the object.
